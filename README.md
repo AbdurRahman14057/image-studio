@@ -19,8 +19,10 @@ Image Size Reducer & Editor is an offline-first image editing application that a
 
 1. Create a GitHub repository and push your local project to the `main` branch.
 2. Add the workflow file at `.github/workflows/deploy-github-pages.yml`.
-3. Push `main` to GitHub. GitHub Actions will build and publish `dist/` to GitHub Pages.
-4. Enable Pages in repository Settings, and set the Pages source to the `gh-pages` branch if needed.
+3. Push `main` to GitHub. GitHub Actions will build the app and publish `docs/` to GitHub Pages.
+4. Set the Pages source to the `main` branch and the `/docs` folder in repository Settings.
+
+> The project now copies `dist/` into `docs/` automatically after each build.
 
 ## Local build preview
 
