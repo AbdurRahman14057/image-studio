@@ -1,0 +1,6 @@
+{
+  "name": "Image Size Reducer & Editor",
+  "description": "An offline-first browser-based image cropping, resizing, and effect adjustment workspace for exporting high-quality formats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
